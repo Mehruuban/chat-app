@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_rounded_corner"
+        android:backgroundTint="@color/chat_color_sender"
+        android:padding="8dp"
+        android:layout_marginEnd="80dp"
+        android:id="@+id/left_chat_layout">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hlo how are you"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:id="@+id/left_chat_textView"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/chat_color_receiver"
+        android:background="@drawable/edit_text_rounded_corner"
+        android:padding="8dp"
+        android:layout_marginStart="80dp"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/Right_chat_layout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="i am fine "
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:id="@+id/right_chat_textView"/>
+    </LinearLayout>
+
+</RelativeLayout>

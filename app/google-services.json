@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "812943825235",
+    "project_id": "chatapp-backend-d661f",
+    "storage_bucket": "chatapp-backend-d661f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812943825235:android:52d4904ba7c7950fe3e9a6",
+        "android_client_info": {
+          "package_name": "com.mehru.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDEDFB7q_JAR4nUbc9AGtFBARj5YPCKwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
